@@ -5,7 +5,7 @@ import Axios from 'axios';
 
 import { unsetUser } from '../reducers/user/userSlice';
 
-import { ProductsList } from '../components/ProductsList';
+import { ProductsList } from '../components/ProductList';
 
 export const Home = () => {
   const dispatch = useDispatch();
